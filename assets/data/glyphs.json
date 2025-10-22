@@ -1,0 +1,7 @@
+[
+  { "id": "intro", "real": "ENTRER DANS LA CUISINE", "glyphs": ["卄", "⛧", "🍝", "⚙️", "ツ", "✹"] },
+  { "id": "gpu", "real": "GPU SAUCÉ", "glyphs": ["⚡", "卐", "🔥", "🍜", "𐍊", "卄卄"] },
+  { "id": "benchmark", "real": "BENCHMARK AL DENTE", "glyphs": ["✦", "♨️", "🍝", "ツ", "⚡"] },
+  { "id": "sauce", "real": "SAUCE OVERCLOCKÉE", "glyphs": ["♨️", "🍲", "卄", "🌀", "⚙️"] },
+  { "id": "contact", "real": "REJOINDRE LA CUISINE", "glyphs": ["👁", "✦", "♨️", "🍝", "🌀"] }
+]
