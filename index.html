@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; script-src 'self';">
+  <title>LES PÂTES GRAPHIQUES</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="top-bar">
+    <div class="logo-wrapper">
+      <img src="assets/media/logo-fork.png" alt="Logo Les Pâtes Graphiques" class="logo">
+    </div>
+    <button class="cta" type="button">LOGIN / REJOINDRE LA CUISINE</button>
+  </header>
+
+  <main>
+    <section class="hero" id="intro">
+      <div class="video-wrapper" data-active="0">
+        <video class="bg is-active" src="assets/media/pasta1.mp4" poster="assets/media/pasta-fallback.jpg" autoplay muted loop playsinline></video>
+        <video class="bg" src="assets/media/pasta2.mp4" poster="assets/media/pasta-fallback.jpg" autoplay muted loop playsinline></video>
+        <div class="fallback" role="presentation" aria-hidden="true"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-lines" aria-hidden="true">
+          <span class="line horizontal"></span>
+          <span class="line vertical"></span>
+        </div>
+        <h1 id="hero-title" class="glitchable">
+          <span class="top">LES PÂTES</span>
+          <span class="bottom"><span class="gold">GRAPHIQUES</span></span>
+        </h1>
+        <p class="tagline">"L’alliance divine entre la performance et la cuisson al dente."</p>
+      </div>
+    </section>
+
+    <section class="panel" id="gpu">
+      <div class="panel-inner">
+        <h2>Recettes GPU</h2>
+        <p>Assemblage mystique de cartes graphiques marinées dans un bain thermique au PCIe express. Chaque tranche de silicium est coupée en julienne et servie avec des nappes de VRAM fondante.</p>
+        <p class="accent">Conseil du chef : saupoudrer d’overlays quantiques pour une cuisson isochrone.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="benchmark">
+      <div class="panel-inner">
+        <h2>Benchmark Al Dente</h2>
+        <p>Nos FPS montent comme l’eau des pâtes : jusqu’à 240 bulles par seconde. Si c’est trop croquant, prolongez l’infusion dans le broth de refroidissement liquide.</p>
+        <ul>
+          <li>0 → 60 FPS : « ébullition douce »</li>
+          <li>60 → 144 FPS : « croquant carbonara »</li>
+          <li>144 → 360 FPS : « trance thermique transcendante »</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel" id="sauce">
+      <div class="panel-inner">
+        <h2>Sauce Overclockée</h2>
+        <p>Un velouté de cuivre et d’or agit comme dissipateur mystique. Le flux lumineux pulse au rythme du GPU, libérant des arômes d’électrons grillés.</p>
+        <p class="accent">Activez le mode « Turbo Ragu » pour un boost de 12 GHz et une vapeur aromatique directement dans vos sens.</p>
+      </div>
+    </section>
+
+    <section class="panel contact" id="contact">
+      <div class="panel-inner">
+        <h2>Rejoindre la cuisine divine</h2>
+        <p>Inscrivez-vous pour recevoir nos rituels hebdomadaires de carbonara ray-tracing.</p>
+        <form class="contact-form" autocomplete="off">
+          <label for="name">Nom de scène culinaire</label>
+          <input id="name" name="name" type="text" placeholder="Chef Shader" required>
+          <label for="email">Adresse cryptée</label>
+          <input id="email" name="email" type="email" placeholder="chef@pates.gpu" required>
+          <label for="message">Message aux moines overclockeurs</label>
+          <textarea id="message" name="message" rows="4" placeholder="J’apporte ma propre sauce thermique."></textarea>
+          <button type="submit">Envoyer au coven culinaire</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <section class="glyph-dock" aria-label="Navigation occulte">
+    <div class="glyph-inner" id="glyph-controls"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© LES PÂTES GRAPHIQUES — Frémissement perpétuel depuis 2024.</p>
+  </footer>
+
+  <script src="assets/js/glyphs.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
